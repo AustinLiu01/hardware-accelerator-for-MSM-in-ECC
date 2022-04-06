@@ -61,7 +61,7 @@ reg  [POINT_WIDTH-1:0]    points_pair_result_tmp_X;
 reg  [POINT_WIDTH-1:0]    points_pair_result_tmp_Y;
 reg  [INDEX_WIDTH-1:0]    points_pair_result_tmp_index;
 
-wire [2*POINT_WIDTH-1:0]  pin_fifo_result_tmp;
+wire [2*POINT_WIDTH-1:0]  pin_fifo_u2;
 wire [2*POINT_WIDTH-1:0]  pout_fifo_u2;
 wire [INDEX_WIDTH-1:  0]  index_in_fifo_u2;
 wire [INDEX_WIDTH-1:  0]  index_out_fifo_u2;
